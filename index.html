@@ -4,98 +4,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MrGushii - Portfolio</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Primary Meta Tags -->
+    <title>MrGushii - Professional Graphic Designer Portfolio | Adobe Creative Suite Expert</title>
+    <meta name="title" content="MrGushii - Professional Graphic Designer Portfolio | Adobe Creative Suite Expert">
+    <meta name="description"
+        content="Professional graphic designer specializing in Adobe Photoshop, Illustrator, and Photopea. Creating pixel-perfect designs with expertise in color theory, project management, and stress management. View portfolio and get in touch for custom design projects.">
+    <meta name="keywords"
+        content="graphic designer, Adobe Photoshop, Adobe Illustrator, Photopea, color theory, project management, graphic design portfolio, digital design, visual design, logo design, branding, web design, UI/UX design, creative professional">
+    <meta name="author" content="MrGushii">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mrgushii.github.io/portfolio/">
+
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://mrgushii.github.io/portfolio/sitemap.xml">
+
+    <!-- Favicon and App Icons -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.ico">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mrgushii.github.io/portfolio/">
+    <meta property="og:title" content="MrGushii - Professional Graphic Designer Portfolio">
+    <meta property="og:description"
+        content="Professional graphic designer specializing in Adobe Creative Suite. Creating beautiful, functional designs with expertise in color theory and project management. View portfolio and get in touch for custom projects.">
+    <meta property="og:image" content="https://mrgushii.github.io/portfolio/pfp.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="MrGushii - Professional Graphic Designer">
+    <meta property="og:site_name" content="MrGushii Portfolio">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mrgushii.github.io/portfolio/">
+    <meta property="twitter:title" content="MrGushii - Professional Graphic Designer Portfolio">
+    <meta property="twitter:description"
+        content="Professional graphic designer specializing in Adobe Creative Suite. Creating beautiful, functional designs with expertise in color theory and project management.">
+    <meta property="twitter:image" content="https://mrgushii.github.io/portfolio/pfp.png">
+    <meta property="twitter:image:alt" content="MrGushii - Professional Graphic Designer">
+    <meta name="twitter:creator" content="@mrgushii_">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#D0BCA0">
+    <meta name="msapplication-TileColor" content="#D0BCA0">
+    <meta name="application-name" content="MrGushii Portfolio">
+
+    <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.instagram.com">
+    <link rel="preconnect" href="https://discord.com">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Huninn&family=Quicksand:wght@300..700&display=swap"
         rel="stylesheet">
+
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "MrGushii",
+        "jobTitle": "Graphic Designer",
+        "description": "Professional graphic designer with expertise in Adobe Creative Suite, color theory, and project management",
+        "url": "https://mrgushii.github.io/portfolio/",
+        "image": "https://mrgushii.github.io/portfolio/pfp.png",
+        "sameAs": [
+            "https://www.instagram.com/mrgushii_/",
+            "https://discord.com/channels/@me"
+        ],
+        "knowsAbout": [
+            "Graphic Design",
+            "Adobe Photoshop",
+            "Adobe Illustrator", 
+            "Photopea",
+            "Color Theory",
+            "Project Management",
+            "Programming",
+            "Stress Management"
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Graphic Designer",
+            "description": "Creating beautiful and functional designs using Adobe Creative Suite and other design tools"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Freelance Graphic Designer"
+        }
+    }
+    </script>
+
+    <!-- Additional Structured Data for Portfolio -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "MrGushii Portfolio",
+        "description": "Professional graphic design portfolio showcasing work in Adobe Creative Suite",
+        "creator": {
+            "@type": "Person",
+            "name": "MrGushii"
+        },
+        "genre": "Graphic Design",
+        "keywords": "graphic design, Adobe Photoshop, Adobe Illustrator, Photopea, portfolio",
+        "url": "https://mrgushii.github.io/portfolio/"
+    }
+    </script>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">MrGushii</div>
-            <ul class="nav-links">
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <header role="banner">
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="logo" aria-label="MrGushii - Professional Graphic Designer">MrGushii</div>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="#skills" role="menuitem" aria-label="View my skills and expertise">Skills</a>
+                </li>
+                <li role="none"><a href="#projects" role="menuitem"
+                        aria-label="View my graphic design projects">Projects</a></li>
+                <li role="none"><a href="#contact" role="menuitem" aria-label="Contact me for design work">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="hero">
-            <img src="pfp.png" alt="MrGushii Profile Picture" class="profile-pic">
+    <main role="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <img src="pfp.png" alt="MrGushii - Professional Graphic Designer Profile Picture" class="profile-pic">
             <div class="hero-text">
-                <h1>Hi. I'm MrGushii.</h1>
-                <h2>A Graphic Designer</h2>
-                <p>I'm a graphic designer with a passion for creating beautiful and functional designs. I'm a quick
+                <h1 id="hero-title">Hi. I'm MrGushii.</h1>
+                <h2>A Professional Graphic Designer</h2>
+                <p>I'm a professional graphic designer with a passion for creating beautiful and functional designs. I'm
+                    a quick
                     learner and I'm always looking to improve my skills. I've learned a ton in two years, and now I'm
                     ready to satisfy my customers. May your art look more polished than silver. Prices are negotiable!
                 </p>
             </div>
         </section>
-        <section id="skills" class="skills-section">
-            <h2>My Skills</h2>
+        <section id="skills" class="skills-section" aria-labelledby="skills-title">
+            <h2 id="skills-title">My Skills & Expertise</h2>
             <div class="skills-list">
-                <div class="skill-card">
+                <article class="skill-card">
                     <h3>Graphic Design</h3>
                     <p>I actively work with Adobe Photoshop, Illustrator, and Photopea to make sure my work is pixel
                         perfect, and exceeds expectations.</p>
-                </div>
-                <div class="skill-card">
+                </article>
+                <article class="skill-card">
                     <h3>Programming</h3>
                     <p>With a strong understanding of basic programming principles, I incorporate code into my workflow
                         to build responsive, user-friendly experiences.</p>
-                </div>
-                <div class="skill-card">
+                </article>
+                <article class="skill-card">
                     <h3>Color Theory</h3>
                     <p>Understanding how colors work together helps me create visuals that communicate the right mood
                         and message.</p>
-                </div>
-                <div class="skill-card">
+                </article>
+                <article class="skill-card">
                     <h3>Project Management</h3>
                     <p>I actively work with Jira and Trello to manage my projects, and give my clients a clear
                         and concise overview of the project.</p>
-                </div>
-                <div class="skill-card">
+                </article>
+                <article class="skill-card">
                     <h3>Stress Management</h3>
                     <p>I apply strategic time management techniques and digital organization tools to maintain composure
                         and deliver consistent results under pressure.</p>
-                </div>
+                </article>
             </div>
         </section>
-        <section id="projects" class="projects-section">
-            <h2>Projects</h2>
+        <section id="projects" class="projects-section" aria-labelledby="projects-title">
+            <h2 id="projects-title">Graphic Design Projects</h2>
             <p class="projects-hint">Click on any image to view it in fullscreen</p>
-            <div class="projects-grid">
-                <div class="project-card"><img src="product-1.png" alt="Project 1"></div>
-                <div class="project-card"><img src="product-2.png" alt="Project 2"></div>
-                <div class="project-card"><img src="product-3.png" alt="Project 3"></div>
-                <div class="project-card"><img src="product-4.png" alt="Project 4"></div>
-                <div class="project-card"><img src="product-5.png" alt="Project 5"></div>
-                <div class="project-card"><img src="product-6.png" alt="Project 6"></div>
-                <div class="project-card"><img src="product-7.png" alt="Project 7"></div>
+            <div class="projects-grid" role="grid" aria-label="Graphic design portfolio projects">
+                <article class="project-card" role="gridcell">
+                    <img src="product-1.png" alt="Graphic Design Project 1 - Professional design work" loading="lazy">
+                </article>
+                <article class="project-card" role="gridcell">
+                    <img src="product-2.png" alt="Graphic Design Project 2 - Creative design showcase" loading="lazy">
+                </article>
+                <article class="project-card" role="gridcell">
+                    <img src="product-3.png" alt="Graphic Design Project 3 - Adobe Creative Suite work" loading="lazy">
+                </article>
+                <article class="project-card" role="gridcell">
+                    <img src="product-4.png" alt="Graphic Design Project 4 - Digital design portfolio" loading="lazy">
+                </article>
+                <article class="project-card" role="gridcell">
+                    <img src="product-5.png" alt="Graphic Design Project 5 - Visual design work" loading="lazy">
+                </article>
+                <article class="project-card" role="gridcell">
+                    <img src="product-6.png" alt="Graphic Design Project 6 - Professional portfolio piece"
+                        loading="lazy">
+                </article>
+                <article class="project-card" role="gridcell">
+                    <img src="product-7.png" alt="Graphic Design Project 7 - Creative design showcase" loading="lazy">
+                </article>
             </div>
             <br>
             <br>
         </section>
-        <section id="contact" class="contact-section">
-            <h2>Contact Info</h2>
-            <!-- <p>Discord: <span class="discord-tag">mrgushii</span></p> -->
-            <!-- From Uiverse.io by andrew-demchenk0 -->
-            <div class="social-links">
-                <a href="https://www.instagram.com/mrgushii_/" class="social-link instagram" aria-label="Instagram"
-                    target="_blank" rel="noopener noreferrer">
-                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+        <section id="contact" class="contact-section" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact Information</h2>
+            <p>Get in touch for custom graphic design projects, branding, and creative solutions.</p>
+            <div class="social-links" role="group" aria-label="Social media and contact links">
+                <a href="https://www.instagram.com/mrgushii_/" class="social-link instagram"
+                    aria-label="Follow MrGushii on Instagram" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
                         <path
                             d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                     </svg>
                 </a>
-                <a href="https://discord.com/channels/@me" class="social-link discord" aria-label="Discord"
-                    target="_blank" rel="noopener noreferrer">
-                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <a href="https://discord.com/channels/@me" class="social-link discord"
+                    aria-label="Contact MrGushii on Discord" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
                         <path
                             d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z" />
                     </svg>
@@ -103,11 +231,11 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer role="contentinfo">
         <p class="copyright">&copy; 2025 MrGushii. All rights reserved.</p>
         <p class="credit">Website created by <span class="credit-name"><a href="https://github.com/musamaziaa"
-                    target="_blank" rel="noopener noreferrer">Usama</a></span> | Discord: <span
-                class="discord-tag">cant_think123</span></p>
+                    target="_blank" rel="noopener noreferrer" aria-label="Visit Usama's GitHub profile">Usama</a></span>
+            | Discord: <span class="discord-tag">cant_think123</span></p>
     </footer>
 
     <script src="script.js"></script>
